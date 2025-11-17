@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Website</title>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>First Website</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum earum molestiae totam veritatis tempora repellat numquam obcaecati aut fugiat sapiente animi libero debitis, nihil adipisci aperiam iusto alias aspernatur non?</p>
+
+    <div class="container">
+        <div class="login-box">
+            <h2>Welcome Back</h2>
+            <p class="subtitle">Login to continue</p>
+
+            <form>
+                <div class="input-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter your password" required>
+                </div>
+
+                <button type="submit" class="btn">Login</button>
+
+                <p class="signup-text">
+                    Don't have an account? <a href="#">Sign Up</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
 </body>
 </html>
